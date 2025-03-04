@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.AlienBackstoryDef>
+    <defName>BackstoryBorgTacticalDrone</defName>
+    <title>Tactical drone</title>
+    <titleShort>Drone</titleShort>
+    <baseDesc>{PAWN_nameDef} was assimilated and fitted with a number of prosthetics designed to operate the weapon systems and maintenance of attack and defense vessels and equipment.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BorgBackstories</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>4</Melee>
+    </skillGains>
+    <forcedTraitsChance>
+    </forcedTraitsChance>
+    <disallowedTraitsChance>
+    </disallowedTraitsChance>
+    <workDisables>
+    </workDisables>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>BackstoryBorgMaintenanceDrone</defName>
+    <title>Maintenance drone</title>
+    <titleShort>Drone</titleShort>
+    <baseDesc>{PAWN_nameDef} assimilated and assigned to function primarily as a maintenance drone - they lack the skills and implants to effectively function on the battlefield, but can be used in a pinch.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BorgBackstories</li>
+    </spawnCategories>
+    <skillGains>
+        <Shooting>-4</Shooting>
+        <Melee>-4</Melee>
+        <Construction>4</Construction>
+    </skillGains>
+    <forcedTraitsChance>
+    </forcedTraitsChance>
+    <disallowedTraitsChance>
+    </disallowedTraitsChance>
+    <workDisables>
+    </workDisables>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>BackstoryBorgMedicalDrone</defName>
+    <title>Medical drone</title>
+    <titleShort>Drone</titleShort>
+    <baseDesc>{PAWN_nameDef} was assimilated and fitted with a number of prosthetics designed to better operate the medical and maintenance equipment for recharging stations, prosthetic development and implantation.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BorgBackstories</li>
+    </spawnCategories>
+    <skillGains>
+      <Medicine>4</Medicine>
+      <Melee>-4</Melee>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+    <forcedTraitsChance>
+    </forcedTraitsChance>
+    <disallowedTraitsChance>
+    </disallowedTraitsChance>
+    <workDisables>
+    </workDisables>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>BackstoryBorgCollective</defName>
+    <title>Borg collective</title>
+    <titleShort>Borg</titleShort>
+    <baseDesc>{PAWN_nameDef} is a productive member of the hivemind Their technological and biological distinctiveness contributes to the efforts of the collective, and this synchronous mind has improved most aspects of borg skills and abilities.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>BorgBackstories</li>
+    </spawnCategories>
+    <skillGains>
+      <Medicine>2</Medicine>
+      <Melee>2</Melee>
+      <Intellectual>2</Intellectual>
+      <Plants>2</Plants>
+      <Cooking>2</Cooking>
+      <Construction>2</Construction>
+      <Crafting>2</Crafting>
+      <Mining>2</Mining>
+    </skillGains>
+    <forcedTraitsChance>
+    </forcedTraitsChance>
+    <disallowedTraitsChance>
+    </disallowedTraitsChance>
+    <workDisables>
+    </workDisables>
+  </AlienRace.AlienBackstoryDef>
+</Defs>
