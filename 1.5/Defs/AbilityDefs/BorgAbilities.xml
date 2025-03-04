@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef ParentName="AbilityTouchBase">
+    <defName>Ability_ImplantNanites</defName>
+    <label>implant nanites</label>
+    <description>Implant this person with the borg nanites, initating the process of assimilation.\n\nWhen implanted, the nanites will rapidly reconstruct the victim into a fellow borg, the process is extremely painful and for all intents and purposes the vectim dies.</description>
+    <iconPath>Things/Borg/Items/NaniteInjector</iconPath>
+    <warmupStartSound>ReimplantXenogerm_Cast</warmupStartSound>
+    <warmupEffecter>Implant_Xenogerm</warmupEffecter>
+    <category>Sanguophage</category>
+    <displayOrder>500</displayOrder>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityTouch</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <range>-1</range>
+      <warmupTime>4</warmupTime>
+      <stunTargetOnCastStart>true</stunTargetOnCastStart>
+      <targetParams>
+        <canTargetAnimals>true</canTargetAnimals>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="Borg.CompProperties_AbilityImplantNanites" />
+    </comps>
+  </AbilityDef>
+</Defs>

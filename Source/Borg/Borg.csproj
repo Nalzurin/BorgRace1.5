@@ -1,18 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputPath>..\..\1.4\Assemblies</OutputPath>
+    <OutputPath>..\..\1.5\Assemblies</OutputPath>
     <TargetFramework>net48</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <DebugType>None</DebugType>
     <LangVersion>latest</LangVersion>
     <FileVersion>1.4.4</FileVersion>
+    <BaseOutputPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BorgRace1.5\1.5\Assemblies</BaseOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref">
-      <Version>*</Version>
-      <ExcludeAssets>runtime</ExcludeAssets>
-      <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.4297" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AlienRace">
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\839005762\Assemblies\AlienRace.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

@@ -158,8 +158,6 @@
         </apparelList>
         <weaponList>
           <li>Borg_DroneBlaster</li>
-          <li>BorgNaniteProbe</li>
-          <li>BorgNaniteProbePlayer</li>
         </weaponList>
         <buildingList>
           <li>BorgMachiningStation</li>
@@ -301,7 +299,6 @@
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
       <specialShadowData>
         <volume>(0.3, 0.8, 0.4)</volume>

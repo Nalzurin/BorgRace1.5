@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+  <MessageCannotUseOnFellowBorg>Target is already a borg</MessageCannotUseOnFellowBorg>
+  <NanitesReplicatingPresent>{PAWN_nameDef}'s nanites are in the process of replicating</NanitesReplicatingPresent>
+  <LetterLabelNanitesImplanted>Nanites implanted</LetterLabelNanitesImplanted>
+  <LetterTextNanitesImplanted>{CASTER_nameDef} has implanted a load of nanites into {TARGET_nameDef}, initiating the assimilation process.\n\n {CASTER_possessive} genes will also need to regrow. This process takes time. {CASTER_nameDef} will not be able to deliver another load of nanites for the duration.</LetterTextNanitesImplanted>
+</LanguageData>
