@@ -14,7 +14,7 @@
       <Mass>2.4</Mass>
     </statBases>
     <graphicData>
-      <texPath>Things/Borg/Weapons/NaniteInjector</texPath>
+      <texPath>Things/Borg/Items/NaniteInjector</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <comps>
